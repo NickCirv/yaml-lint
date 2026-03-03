@@ -1,0 +1,9 @@
+required:
+  - name
+  - version
+  - port
+types:
+  name: string
+  version: string
+  port: number
+  enabled: boolean

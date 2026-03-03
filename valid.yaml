@@ -1,0 +1,40 @@
+---
+name: my-app
+version: "1.0.0"
+description: A sample application config
+enabled: true
+port: 3000
+
+server:
+  host: localhost
+  timeout: 30
+  debug: false
+
+database:
+  host: db.example.com
+  port: 5432
+  name: mydb
+  pool:
+    min: 2
+    max: 10
+
+features:
+  - name: auth
+    enabled: true
+  - name: caching
+    enabled: false
+
+tags:
+  - production
+  - web
+  - api
+
+notes: |
+  This is a multiline
+  block scalar string.
+
+inline_map: {key: value, foo: bar}
+inline_list: [1, 2, 3]
+
+null_field: null
+empty: ~

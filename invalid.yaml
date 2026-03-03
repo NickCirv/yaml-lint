@@ -1,0 +1,14 @@
+name: my-app
+version: 1.0.0
+description: This line is intentionally very very very very very very very very very very very very very very very long and exceeds the default max line length of 120 characters
+port: 3000
+
+database:
+  host: db.example.com
+  host: duplicate-key-here
+  port: 5432
+
+tags:
+  - production
+   - bad-indent
+  - api
