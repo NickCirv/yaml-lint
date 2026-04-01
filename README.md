@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # yaml-lint
 
 Fast YAML validator, formatter, and linter — pure JS parser, configurable rules, auto-fix. **Zero dependencies.**
